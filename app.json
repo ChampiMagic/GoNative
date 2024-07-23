@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#476A9C"
     },
     "ios": {
       "supportsTablet": true
@@ -17,11 +17,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#476A9C"
+      },
+      "package": "com.gonative.GoNative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c781bb4e-0b8d-4e0f-8023-b490b45d62f3"
+      }
+    },
+    "owner": "gonative"
   }
 }
